@@ -8,7 +8,7 @@ The testscript below as it is formatted by Selenium IDE with the Selenium Xebium
 
 3. Verify the text ''Xebium'' is shown somewhere on the page.
 
-4. Verify the text ''${PAGE_NAME}'' is shown in the page_title element.
+#4. Verify the text ''${PAGE_NAME}'' is shown in the page_title element.
 
 #!| script | selenium driver fixture |
 #| start browser | firefox | on url | http://www.facebook.com |
