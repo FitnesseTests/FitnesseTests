@@ -1,0 +1,25 @@
+|library                |
+|selenium driver fixture|
+
+
+|import                    |
+|com.xebia.incubator.xebium|
+|com.xebia.sikuli          |
+
+
+
+|script                |fitnesse start fixture|
+|start fitnesse on port|${FITNESSE_SUT_PORT}  |
+
+
+
+
+
+
+
+
+!| script    |default web driver supplier                                                                                   |
+|set browser |{ "browserName": "chrome", "remote": "http://9.164.147.156:5555/wd/hub","platform":"WINDOWS", "port": "5556" }|
+|$webDriver3=|new web driver                                                                                                |
+|start driver|$webDriver3                |on url                |https://www.facebook.com                                   |
+|ensure      |do                         |open                  |on                |https://www.facebook.com                |
