@@ -20,8 +20,8 @@ The testscript below as it is formatted by Selenium IDE with the Selenium Xebium
 #|start driver|$webDriver1                   |on url                   |https://www.google.com                   |
 
 
-!| script    |default web driver supplier                                                                                   |
+!| script    |default web driver supplier                                                                                  |
 |set browser |{ "browserName": "chrome", "remote": "http://192.168.11.2:5555/wd/hub","platform":"WINDOWS", "port": "5556" }|
-|$webDriver3=|new web driver                                                                                                |
-|start driver|$webDriver3                |on url                |https://www.facebook.com                                   |
-|ensure      |do                         |open                  |on                |https://www.facebook.com                |
+|$webDriver3=|new web driver                                                                                               |
+|start driver|$webDriver3                 |on url                |https://www.goolgle.com                                  |
+|ensure      |do                          |open                  |on                |https://www.google.com                |
