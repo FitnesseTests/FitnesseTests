@@ -20,8 +20,11 @@ The testscript below as it is formatted by Selenium IDE with the Selenium Xebium
 #|start driver|$webDriver1                   |on url                   |https://www.google.com                   |
 
 
-!| script    |default web driver supplier                                                                                  |
-|set browser |{ "browserName": "chrome", "remote": "http://192.168.11.2:5555/wd/hub","platform":"WINDOWS", "port": "5556" }|
-|$webDriver3=|new web driver                                                                                               |
-|start driver|$webDriver3                 |on url                |https://www.goolgle.com                                  |
-|ensure      |do                          |open                  |on                |https://www.google.com                |
+!| script    |default web driver supplier                                                                                                         |
+|set browser |{ "browserName": "chrome", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }                       |
+|$webDriver3=|new web driver                                                                                                                      |
+|start driver|$webDriver3|on url               |https://files.fm/                                                                          |
+|ensure      |do         |open                 |on|https://files.fm/                                                                         |
+|ensure      |do         |waitForElementPresent|on|!-//div[@id='uploadifive-file_upload']/input[2]-!                                              |
+|ensure      |do         |type                 |on|!-//div[@id='uploadifive-file_upload']/input[2]-!|with|/Users/giedrius/Desktop/Buhalteriniu.pdf|
+
