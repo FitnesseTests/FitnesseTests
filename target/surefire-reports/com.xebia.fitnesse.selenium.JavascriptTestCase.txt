@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.xebia.fitnesse.selenium.JavascriptTestCase
 -------------------------------------------------------------------------------
-Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.476 sec
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.298 sec

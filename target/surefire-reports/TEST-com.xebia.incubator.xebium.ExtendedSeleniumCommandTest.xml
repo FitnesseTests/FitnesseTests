@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" time="0.018" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" time="0.008" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -61,22 +61,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyTextPresent" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testIsTextNotPresent" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyTextNotPresent" time="0.002"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testWaitForTextPresent" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyTextPresent" time="0"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testIsTextNotPresent" time="0"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyTextNotPresent" time="0"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testWaitForTextPresent" time="0"/>
   <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testWaitForNotTextPresent" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testStoreTextPresent" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testStoreTextPresent" time="0"/>
   <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testClick" time="0"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testClickAndWait" time="0"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyNotChecked" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyNotText" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testClickAndWait" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyNotChecked" time="0"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testVerifyNotText" time="0"/>
   <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testRequiredPollingCommands" time="0"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testRegexpMatch" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testRegexpMatch" time="0"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testAssertTextPresent" time="0"/>
   <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testRegexpiMatch" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testExactMatch" time="0"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testGlobMatch" time="0.003"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testGlobAsDefaultMatch" time="0.002"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testExactMatch" time="0.002"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testGlobMatch" time="0.001"/>
+  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testGlobAsDefaultMatch" time="0.001"/>
   <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testMultiLineRegexp" time="0.001"/>
-  <testcase classname="com.xebia.incubator.xebium.ExtendedSeleniumCommandTest" name="testAssertTextPresent" time="0.001"/>
 </testsuite>
