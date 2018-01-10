@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>FrontPage.Testas1</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-10T14:03:41+02:00</date>
+    <runTimeInMillis>39879</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.SetUp"&gt;.FrontPage.SetUp&lt;/a&gt; &lt;a href="FrontPage.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;The testscript below as it is formatted by Selenium IDE with the Selenium Xebium formatter.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Executed steps: &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;1. Open the current page in a browser.&lt;br/&gt;&lt;br/&gt;2. wait for the page title.&lt;br/&gt;&lt;br/&gt;3. Verify the text &lt;i&gt;Xebium&lt;/i&gt; is shown somewhere on the page.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="6"&gt;&lt;span class="pass"&gt;default web driver supplier&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;set browser&lt;/td&gt;
+		&lt;td colspan="6"&gt;{ "browserName": "chrome", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$webDriver3&amp;lt;-[RemoteWebDriver: chrome on MAC (9b63a488-f607-4fdd-8287-bb419d7607f9)]&lt;/td&gt;
+		&lt;td colspan="6"&gt;new web driver&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;start driver&lt;/td&gt;
+		&lt;td&gt;$webDriver3-&gt;[RemoteWebDriver: chrome on MAC (9b63a488-f607-4fdd-8287-bb419d7607f9)]&lt;/td&gt;
+		&lt;td&gt;on url&lt;/td&gt;
+		&lt;td colspan="4"&gt;https://files.fm/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://files.fm/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;waitForElementPresent&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td colspan="3"&gt;//div[@id='uploadifive-file_upload']/input[2]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;type&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;//div[@id='uploadifive-file_upload']/input[2]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;/Users/giedrius/Desktop/Buhalteriniu.pdf&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Testas1</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_0', instruction='make', instanceName='scriptTableActor', className='DefaultWebDriverSupplier', args=[]}</instruction>
+        <slimResult>pass(default web driver supplier)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>default web driver supplier</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_1', instruction='call', instanceName='scriptTableActor', methodName='setBrowser', args=[{ "browserName": "chrome", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_0_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_2', instruction='callAndAssign', symbolName='webDriver3', instanceName='scriptTableActor', methodName='newWebDriver', args=[]}</instruction>
+        <slimResult>$webDriver3&lt;-[RemoteWebDriver: chrome on MAC (9b63a488-f607-4fdd-8287-bb419d7607f9)]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_0_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$webDriver3&lt;-[RemoteWebDriver: chrome on MAC (9b63a488-f607-4fdd-8287-bb419d7607f9)]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_3', instruction='call', instanceName='scriptTableActor', methodName='startDriverOnUrl', args=[$webDriver3, https://files.fm/]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_0_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_4', instruction='call', instanceName='scriptTableActor', methodName='doOn', args=[open, https://files.fm/]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_5', instruction='call', instanceName='scriptTableActor', methodName='doOn', args=[waitForElementPresent, //div[@id='uploadifive-file_upload']/input[2]]}</instruction>
+        <slimResult>fail()</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_0_5</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_6', instruction='call', instanceName='scriptTableActor', methodName='doOnWith', args=[type, //div[@id='uploadifive-file_upload']/input[2], /Users/giedrius/Desktop/Buhalteriniu.pdf]}</instruction>
+        <slimResult>fail()</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_0_6</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Started new command processor (timeout: 30000ms, step delay: 0ms, poll interval: 100ms)
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Performing | open | https://files.fm/ |
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'open' returned 'null'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Performing | waitForElementPresent | //div[@id='uploadifive-file_upload']/input[2] |
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Command 'isElementPresent' returned 'false' =&gt; not ok, expected '//div[@id='uploadifive-file_upload']/input[2]'
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - WaitFor-command 'isElementPresent' failed
+[main] INFO com.xebia.incubator.xebium.SeleniumDriverFixture - Performing | type | //div[@id='uploadifive-file_upload']/input[2] | /Users/giedrius/Desktop/Buhalteriniu.pdf |
+[main] WARN com.xebia.incubator.xebium.LocatorCheck - Element //div[@id='uploadifive-file_upload']/input[2] is not found.
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>39879</totalRunTimeInMillis>
+</testResults>
+

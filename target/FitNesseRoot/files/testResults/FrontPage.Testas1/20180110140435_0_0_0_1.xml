@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FrontPage.Testas1</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>7</exceptions>
+    </counts>
+    <date>2018-01-10T14:04:35+02:00</date>
+    <runTimeInMillis>82</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.SetUp"&gt;.FrontPage.SetUp&lt;/a&gt; &lt;a href="FrontPage.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;The testscript below as it is formatted by Selenium IDE with the Selenium Xebium formatter.&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: xebium-0.14-SNAPSHOT.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: xebium-0.14-jar-with-dependencies.jar&lt;/span&gt;&lt;br/&gt;!/Users/local/apache-maven/apache-maven-3.5.2/target xebium-0.14-jar-with-dependencies.jar&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Executed steps: &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;1. Open the current page in a browser.&lt;br/&gt;&lt;br/&gt;2. wait for the page title.&lt;br/&gt;&lt;br/&gt;3. Verify the text &lt;i&gt;Xebium&lt;/i&gt; is shown somewhere on the page.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;script&lt;/td&gt;
+		&lt;td colspan="6" class="error"&gt;default web driver supplier&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="7"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: org/openqa/selenium/firefox/FirefoxDriver
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) [rt.jar:1.8.0_121]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.getClass(DefaultInteraction.java:66) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.searchPathsForClass(DefaultInteraction.java:56) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.createInstance(DefaultInteraction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimExecutionContext.create(SlimExecutionContext.java:52) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:79) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.MakeInstruction.executeInternal(MakeInstruction.java:26) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:91) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.main(SlimService.java:56) [fitnesse-standalone.jar:20161106]
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.firefox.FirefoxDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) [rt.jar:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [rt.jar:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) [rt.jar:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) [rt.jar:1.8.0_121]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.getClass(DefaultInteraction.java:66) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.searchPathsForClass(DefaultInteraction.java:56) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.createInstance(DefaultInteraction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimExecutionContext.create(SlimExecutionContext.java:52) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:79) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.MakeInstruction.executeInternal(MakeInstruction.java:26) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:91) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.main(SlimService.java:56) [fitnesse-standalone.jar:20161106]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;set browser &lt;span class="error"&gt;The instance scriptTableActor.setBrowser. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="6"&gt;{ "browserName": "chrome", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$webDriver3= &lt;span class="error"&gt;The instance scriptTableActor.newWebDriver. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="6"&gt;new web driver&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;start driver &lt;span class="error"&gt;The instance scriptTableActor.startDriverOnUrl. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;$webDriver3&lt;/td&gt;
+		&lt;td&gt;on url&lt;/td&gt;
+		&lt;td colspan="4"&gt;https://files.fm/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure &lt;span class="error"&gt;The instance scriptTableActor.doOn. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://files.fm/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure &lt;span class="error"&gt;The instance scriptTableActor.doOn. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;waitForElementPresent&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td colspan="3"&gt;//div[@id='uploadifive-file_upload']/input[2]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure &lt;span class="error"&gt;The instance scriptTableActor.doOnWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;do&lt;/td&gt;
+		&lt;td&gt;type&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;//div[@id='uploadifive-file_upload']/input[2]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;/Users/giedrius/Desktop/Buhalteriniu.pdf&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Testas1</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_0', instruction='make', instanceName='scriptTableActor', className='DefaultWebDriverSupplier', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_1', instruction='call', instanceName='scriptTableActor', methodName='setBrowser', args=[{ "browserName": "chrome", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setBrowser. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_2', instruction='callAndAssign', symbolName='webDriver3', instanceName='scriptTableActor', methodName='newWebDriver', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_2</instructionId>
+                              <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.newWebDriver. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_3', instruction='call', instanceName='scriptTableActor', methodName='startDriverOnUrl', args=[$webDriver3, https://files.fm/]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.startDriverOnUrl. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_4', instruction='call', instanceName='scriptTableActor', methodName='doOn', args=[open, https://files.fm/]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_4</instructionId>
+                              <type>EnsureActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.doOn. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_5', instruction='call', instanceName='scriptTableActor', methodName='doOn', args=[waitForElementPresent, //div[@id='uploadifive-file_upload']/input[2]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_5</instructionId>
+                              <type>EnsureActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.doOn. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_6', instruction='call', instanceName='scriptTableActor', methodName='doOnWith', args=[type, //div[@id='uploadifive-file_upload']/input[2], /Users/giedrius/Desktop/Buhalteriniu.pdf]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_0_6</instructionId>
+                              <type>EnsureActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.doOnWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>82</totalRunTimeInMillis>
+</testResults>
+

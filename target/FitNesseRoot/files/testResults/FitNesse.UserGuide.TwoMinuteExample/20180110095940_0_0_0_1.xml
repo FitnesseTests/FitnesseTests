@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>FitNesse.UserGuide.TwoMinuteExample</rootPath>
+    <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp fitnesse.jar:classes:lib/*.jar fitnesse.slim.SlimService 8085</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Error: Could not find or load main class fitnesse.slim.SlimService
+</stdErr>
+    <exception>Error SLiM server died before a connection could be established. Error: Could not find or load main class fitnesse.slim.SlimService</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>325</totalRunTimeInMillis>
+</testResults>
+

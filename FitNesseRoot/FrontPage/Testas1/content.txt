@@ -1,0 +1,29 @@
+The testscript below as it is formatted by Selenium IDE with the Selenium Xebium formatter.
+
+'''Executed steps: '''
+
+1. Open the current page in a browser.
+
+2. wait for the page title.
+
+3. Verify the text ''Xebium'' is shown somewhere on the page.
+
+#4. Verify the text ''${PAGE_NAME}'' is shown in the page_title element.
+
+#!| script | selenium driver fixture |
+#| start browser | firefox | on url | http://www.facebook.com |
+#| ensure | do | open | on | / |
+
+#!| script | selenium driver fixture |
+#|set browser |{"browserName": "chrome", "remote", "http://9.164.147.156:4445/wd/hub", "platform": "WINDOWS"}|
+#|$webDriver1 |new web driver                                                                            |
+#|start driver|$webDriver1                   |on url                   |https://www.google.com                   |
+
+
+!| script    |default web driver supplier                                                                                      |
+|set browser |{ "browserName": "phantomjs", "remote": "http://9.183.126.187:5555/wd/hub","platform":"WINDOWS", "port": "5556" }|
+|$webDriver3=|new web driver                                                                                                   |
+|start driver|$webDriver3      |on url                     |https://files.fm/                                                  |
+|ensure      |do               |open                       |on     |https://files.fm/                                          |
+|ensure      |do               |waitForElementPresent      |on     |!-//div[@id='uploadifive-file_upload']/input[2]-!          |
+|check       |is               |assertText                 |on     |id=login_button                   |Log in                  |

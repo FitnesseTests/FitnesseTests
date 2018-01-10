@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FrontPage.SuiteSetUp</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2018-01-10T13:21:45+02:00</date>
+    <runTimeInMillis>88</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Suite setup&lt;/p&gt;
+	&lt;div&gt;&lt;br/&gt;&lt;h2&gt;Import the Xebium fixture in your test&lt;/h2&gt;
+&lt;h3&gt;This setup page is automatically included in all your tests&lt;/h3&gt;
+&lt;span class="meta"&gt;classpath: xebium-0.14-SNAPSHOT.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;com.xebia.incubator.xebium&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;com.xebia.sikuli&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;selenium driver fixture&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/thoughtworks/selenium/SeleniumException
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) [rt.jar:1.8.0_121]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.getClass(DefaultInteraction.java:66) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.searchPathsForClass(DefaultInteraction.java:56) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.createInstance(DefaultInteraction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimExecutionContext.create(SlimExecutionContext.java:52) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:79) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.MakeInstruction.executeInternal(MakeInstruction.java:26) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:91) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.main(SlimService.java:56) [fitnesse-standalone.jar:20161106]
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.SeleniumException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) [rt.jar:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [rt.jar:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) [rt.jar:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) [rt.jar:1.8.0_121]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.getClass(DefaultInteraction.java:66) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.searchPathsForClass(DefaultInteraction.java:56) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.createInstance(DefaultInteraction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimExecutionContext.create(SlimExecutionContext.java:52) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:79) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.MakeInstruction.executeInternal(MakeInstruction.java:26) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:91) [fitnesse-standalone.jar:20161106]
+	at fitnesse.slim.SlimService.main(SlimService.java:56) [fitnesse-standalone.jar:20161106]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>SuiteSetUp</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='com.xebia.incubator.xebium'}</instruction>
+        <slimResult>pass(com.xebia.incubator.xebium)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>com.xebia.incubator.xebium</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='com.xebia.sikuli'}</instruction>
+        <slimResult>pass(com.xebia.sikuli)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>com.xebia.sikuli</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='library_1_0', instruction='make', instanceName='library1', className='SeleniumDriverFixture', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>library_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>89</totalRunTimeInMillis>
+</testResults>
+

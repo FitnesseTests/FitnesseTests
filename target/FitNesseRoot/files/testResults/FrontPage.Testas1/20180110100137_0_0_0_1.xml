@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>FrontPage.Testas1</rootPath>
+    <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp fitnesse.jar:defaultPath fit.FitServer giedriuss-mbp.lt.ibm.com 50209 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Error: Could not find or load main class fit.FitServer
+</stdErr>
+    <exception>FitClient: external process terminated before a connection could be established.</exception>
+    <exception>FitClient: external process terminated before a connection could be established.</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1153</totalRunTimeInMillis>
+</testResults>
+

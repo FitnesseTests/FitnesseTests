@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.xebia.incubator.xebium.WebDriverTest" time="0.001" errors="0" skipped="3">
+<testsuite tests="3" failures="0" name="com.xebia.incubator.xebium.WebDriverTest" time="0" errors="0" skipped="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -67,7 +67,7 @@
   <testcase classname="com.xebia.incubator.xebium.WebDriverTest" name="testWebDriverCommandProcessor" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.xebia.incubator.xebium.WebDriverTest" name="testCaptureScreenshhotCommand" time="0.001">
+  <testcase classname="com.xebia.incubator.xebium.WebDriverTest" name="testCaptureScreenshhotCommand" time="0">
     <skipped/>
   </testcase>
 </testsuite>
